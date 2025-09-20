@@ -1,0 +1,179 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3; 
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color:#464640; 
+}
+
+/* ---------------------------------------------------
+   ENCABEZADO (Header)
+   --------------------------------------------------- */
+header {
+  background-image: url("./marron-pastel_596819-341.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #ffffff; 
+  text-shadow: 1px 1px 2px #f7d59a; 
+}
+
+.frase-inicial {
+  font-style:italic;
+  color: #ffb379;
+  margin-top: 0.5rem;
+  text-shadow: 1px 1px 1px #fff8ec;
+}
+
+/* ---------------------------------------------------
+   NAVEGACIÓN
+   --------------------------------------------------- */
+nav {
+  background-color: #9c673e; 
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff8ec;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: rgb(255, 181, 132);
+}
+
+/* ---------------------------------------------------
+   SECCIONES GENERALES
+   --------------------------------------------------- */
+section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  color: #f19469;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* ---------------------------------------------------
+   SECCIÓN VALORES
+   --------------------------------------------------- */
+#valores {
+  background-color: rgba(232, 198, 154, 0.5);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+/* ---------------------------------------------------
+   TABLA DE Virtudes
+   --------------------------------------------------- */
+#virtudes table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fff8ec;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#frases th,
+#frases td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #d8c3a5;
+}
+
+#frases th {
+  background-color: #c0a060; 
+  color: #fffdf5;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#frases tr:hover {
+  background-color: #e3c9a8;
+  transition: background-color 0.3s ease;
+}
+
+/* ---------------------------------------------------
+   GALERÍA DE OBRAS
+   --------------------------------------------------- */
+#galeria .contenedor-galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.tarjeta-obra {
+  background-color: #fff8ec;
+  border: 1px solid #d8c3a5;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.tarjeta-obra:hover {
+  transform: scale(1.09);
+}
+
+.tarjeta-obra img {
+  width: 85%;
+  height: auto;
+  text-align: center;
+}
+
+.info-obra {
+  padding: 1rem;
+}
+
+.info-obra h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  color: #5ed3d3;
+}
+
+.info-obra p {
+  margin: 0.1rem 0;
+  font-size: 0.9rem;
+}
+
+/* ---------------------------------------------------
+   PIE DE PÁGINA
+   --------------------------------------------------- */
+footer {
+  background-color: #9c673e;
+  color: #fff8ec;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  color: #fff8ec;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  margin: 0 0.5rem; 
+  font-size: 1.8rem; 
+  display: inline-block; 
+}
+
+footer a:hover {
+  color: rgb(0, 0, 0);
+}
